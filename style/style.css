@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bangers", system-ui;
+
+}
+
+body{
+    height: 1000vh;
+}
+.comicsConteinerMarvel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leyendaViviente, .thorHulk, .punisher, .vision, .superman{
+    margin: 0 auto;
+    width: 20%;
+}
+
+.leyendaViviente img, .thorHulk img, .punisher img, .vision img{
+    width: 286px;
+    height: 300px;
+    overflow: hidden;    
+}
+
+.comicsConteinerDC{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.leyendaViviente2, .thorHulk2, .punisher2, .vision2, .superman2{
+    margin: 20px auto;
+    width: 20%;
+}
+
+
+
+
